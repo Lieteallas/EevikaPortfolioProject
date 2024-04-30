@@ -73,8 +73,8 @@
         if (Id != null)
         {
             contents = await Http.GetFromJsonAsync<PortfolioContentPiece[]>($"sample-data/workcontents{(int)Id}.json");
-            works = await Http.GetFromJsonAsync<PortfolioWork[]>($"sample-data/workcontents{(int)Id}.json");
-            workTitle = works != null && works.Any(w => w.Id == Id) ? works.First(w => w.Id == Id).PageName : "";
+            works = await Http.GetFromJsonAsync<PortfolioWork[]>($"sample-data/portfolioworks.json");
+            workTitle = (works != null && works.Any(w => w.Id == Id)) ? works.First(w => w.Id == Id).PageName : "";
         }
     }
 }
