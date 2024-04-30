@@ -8,7 +8,7 @@
     --highlight: #AC845E;
     --highlight-2: #E2723F;
     --link: #4A447F;
-    --mode-icon: url('../img/moonicon.png');
+    --mode-icon: url('../img/MoonIcon.png');
 }
 
 .dark-mode {
@@ -18,7 +18,7 @@
     --highlight: #974587;
     --highlight-2: #4B8563;
     --link: #D2E3B9;
-    --mode-icon: url('../img/sunicon.png');
+    --mode-icon: url('../img/SunIcon.png');
 }
 
 html, body {
@@ -87,7 +87,7 @@ div.main {
 .homeroom {
     margin: auto;
     position: relative;
-    background-image: url('../img/homebackground.png');
+    background-image: url('../img/HomeBackground.png');
     background-size: cover;
     width: 600px;
     height: 614px;
@@ -97,7 +97,7 @@ div.main {
     position: absolute;
     left: 316px;
     top: 316px;
-    background-image: url('../img/iconbtns/critters_base.png');
+    background-image: url('../img/iconbtns/Critters_Base.png');
     background-size: cover;
     width: 48px;
     height: 36px;
@@ -107,7 +107,7 @@ div.main {
     position: absolute;
     left: 293px;
     top: 303px;
-    background-image: url('../img/iconbtns/critters_hover.png');
+    background-image: url('../img/iconbtns/Critters_Hover.png');
     background-size: cover;
     width: 74px;
     height: 71px;
@@ -117,7 +117,7 @@ div.main {
     position: absolute;
     left: 309px;
     top: 248px;
-    background-image: url('../img/iconbtns/bluedemon_base.png');
+    background-image: url('../img/iconbtns/BlueDemon_Base.png');
     background-size: cover;
     width: 43px;
     height: 23px;
@@ -127,7 +127,7 @@ div.main {
     position: absolute;
     left: 314px;
     top: 215px;
-    background-image: url('../img/iconbtns/bluedemon_hover.png');
+    background-image: url('../img/iconbtns/BlueDemon_Hover.png');
     background-size: cover;
     width: 42px;
     height: 90px;
@@ -137,7 +137,7 @@ div.main {
     position: absolute;
     left: 48px;
     top: 307px;
-    background-image: url('../img/iconbtns/computer_base.png');
+    background-image: url('../img/iconbtns/Computer_Base.png');
     background-size: cover;
     width: 103px;
     height: 86px;
@@ -147,7 +147,7 @@ div.main {
     position: absolute;
     left: 31px;
     top: 293px;
-    background-image: url('../img/iconbtns/computer_hover.png');
+    background-image: url('../img/iconbtns/Computer_Hover.png');
     background-size: cover;
     width: 137px;
     height: 101px;
@@ -157,7 +157,7 @@ div.main {
     position: absolute;
     left: 459px;
     top: 392px;
-    background-image: url('../img/iconbtns/journal_base.png');
+    background-image: url('../img/iconbtns/Journal_Base.png');
     background-size: cover;
     width: 61px;
     height: 40px;
@@ -167,7 +167,7 @@ div.main {
     position: absolute;
     left: 467px;
     top: 349px;
-    background-image: url('../img/iconbtns/journal_hover.png');
+    background-image: url('../img/iconbtns/Journal_Hover.png');
     background-size: cover;
     width: 66px;
     height: 83px;
@@ -177,7 +177,7 @@ div.main {
     position: absolute;
     left: 222px;
     top: 481px;
-    background-image: url('../img/iconbtns/paintings_base.png');
+    background-image: url('../img/iconbtns/Paintings_Base.png');
     background-size: cover;
     width: 115px;
     height: 78px;
@@ -187,7 +187,7 @@ div.main {
     position: absolute;
     left: 203px;
     top: 457px;
-    background-image: url('../img/iconbtns/paintings_hover.png');
+    background-image: url('../img/iconbtns/Paintings_Hover.png');
     background-size: cover;
     width: 165px;
     height: 126px;
@@ -197,7 +197,7 @@ div.main {
     position: absolute;
     left: 357px;
     top: 153px;
-    background-image: url('../img/iconbtns/moth_base.png');
+    background-image: url('../img/iconbtns/Moth_Base.png');
     background-size: cover;
     width: 30px;
     height: 53px;
@@ -207,7 +207,7 @@ div.main {
     position: absolute;
     left: 308px;
     top: 92px;
-    background-image: url('../img/iconbtns/moth_hover.png');
+    background-image: url('../img/iconbtns/Moth_Hover.png');
     background-size: cover;
     width: 150px;
     height: 137px;
@@ -217,7 +217,7 @@ div.main {
     position: absolute;
     left: 122px;
     top: 156px;
-    background-image: url('../img/iconbtns/wallart1_base.png');
+    background-image: url('../img/iconbtns/WallArt1_Base.png');
     background-size: cover;
     width: 46px;
     height: 57px;
@@ -227,7 +227,7 @@ div.main {
     position: absolute;
     left: 110px;
     top: 163px;
-    background-image: url('../img/iconbtns/wallart1_hover.png');
+    background-image: url('../img/iconbtns/WallArt1_Hover.png');
     background-size: cover;
     width: 57px;
     height: 61px;
@@ -237,7 +237,7 @@ div.main {
     position: absolute;
     left: 196px;
     top: 112px;
-    background-image: url('../img/iconbtns/wallart2_base.png');
+    background-image: url('../img/iconbtns/WallArt2_Base.png');
     background-size: cover;
     width: 40px;
     height: 78px;
@@ -247,7 +247,7 @@ div.main {
     position: absolute;
     left: 191px;
     top: 98px;
-    background-image: url('../img/iconbtns/wallart2_hover.png');
+    background-image: url('../img/iconbtns/WallArt2_Hover.png');
     background-size: cover;
     width: 53px;
     height: 85px;
@@ -257,7 +257,7 @@ div.main {
     position: absolute;
     left: 171px;
     top: 204px;
-    background-image: url('../img/iconbtns/wallart3_base.png');
+    background-image: url('../img/iconbtns/WallArt3_Base.png');
     background-size: cover;
     width: 45px;
     height: 64px;
@@ -267,7 +267,7 @@ div.main {
     position: absolute;
     left: 175px;
     top: 208px;
-    background-image: url('../img/iconbtns/wallart3_hover.png');
+    background-image: url('../img/iconbtns/WallArt3_Hover.png');
     background-size: cover;
     width: 55px;
     height: 63px;
@@ -277,7 +277,7 @@ div.main {
     position: absolute;
     left: 403px;
     top: 386px;
-    background-image: url('../img/iconbtns/pl3nt_base.png');
+    background-image: url('../img/iconbtns/Pl3nt_Base.png');
     background-size: cover;
     width: 84px;
     height: 51px;
@@ -287,7 +287,7 @@ div.main {
     position: absolute;
     left: 334px;
     top: 379px;
-    background-image: url('../img/iconbtns/pl3nt_hover.png');
+    background-image: url('../img/iconbtns/Pl3nt_Hover.png');
     background-size: cover;
     width: 157px;
     height: 102px;
@@ -301,7 +301,7 @@ div.main {
 }
 
 .portfoliologo {
-    background-image: url('../img/eevika.png');
+    background-image: url('../img/Eevika.png');
     background-size: cover;
     width: 134px;
     height: 37px;

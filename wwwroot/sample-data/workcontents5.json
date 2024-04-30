@@ -2,21 +2,21 @@
   {
     "WorkId": "5",
     "ContentType": "image",
-    "ContentReference": "img/content/physart/sameroomcollage2.jpg"
+    "ContentReference": "img/content/physart/SameRoomCollage2.jpg"
   },
   {
     "WorkId": "5",
     "ContentType": "image",
-    "ContentReference": "img/content/physart/pikipainting.jpg"
+    "ContentReference": "img/content/physart/PikiPainting.jpg"
   },
   {
     "WorkId": "5",
     "ContentType": "image",
-    "ContentReference": "img/content/physart/inkpainting.jpg"
+    "ContentReference": "img/content/physart/InkPainting.jpg"
   },
   {
     "WorkId": "5",
     "ContentType": "image",
-    "ContentReference": "img/content/physart/pillarspainting.jpg"
+    "ContentReference": "img/content/physart/PillarsPainting.jpg"
   }
 ]
