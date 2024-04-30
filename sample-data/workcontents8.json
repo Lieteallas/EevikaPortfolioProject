@@ -9,13 +9,13 @@
     "WorkId": "8",
     "ContentTitle": "PL3-NT Project Video",
     "ContentType": "video",
-    "ContentReference": "/img/content/pl3nt/pl3nt_trailer.mp4"
+    "ContentReference": "img/content/pl3nt/pl3nt_trailer.mp4"
   },
   {
     "WorkId": "8",
     "ContentTitle": "Fusebox",
     "ContentType": "image",
-    "ContentReference": "/img/content/pl3nt/fusebox.gif",
+    "ContentReference": "img/content/pl3nt/fusebox.gif",
     "ContentText": "The fuse box minigame requires the player to input a certain pincode to turn the power on the spaceship back on."
   }
 ]

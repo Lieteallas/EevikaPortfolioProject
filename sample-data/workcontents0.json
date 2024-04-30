@@ -27,13 +27,13 @@
     "WorkId": "0",
     "ContentTitle": "VR Pet Project",
     "ContentType": "video",
-    "ContentReference": "/img/content/critters/eevi_k_xrtech_untitledvrpetproject.mp4",
+    "ContentReference": "img/content/critters/eevi_k_xrtech_untitledvrpetproject.mp4",
     "ContentText": "The first critter was originally for a VR Pet game."
   },
   {
     "WorkId": "0",
     "ContentTitle": "Critter Marker Cards",
     "ContentType": "image",
-    "ContentReference": "/img/content/critters/crittercards.png"
+    "ContentReference": "img/content/critters/crittercards.png"
   }
 ]
