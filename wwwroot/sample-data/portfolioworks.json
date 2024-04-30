@@ -1,0 +1,55 @@
+﻿[
+  {
+    "Id": "0",
+    "PageName": "Critters",
+    "ButtonIconStyle": "critters"
+  },
+
+  {
+    "Id": "1",
+    "PageName": "Animated Character",
+    "ButtonIconStyle": "doll"
+  },
+
+  {
+    "Id": "2",
+    "PageName": "Arcade Level",
+    "ButtonIconStyle": "games"
+  },
+
+  {
+    "Id": "3",
+    "PageName": "Paint Rush VR",
+    "ButtonIconStyle": "paintings"
+  },
+
+  {
+    "Id": "4",
+    "PageName": "Paper Room",
+    "ButtonIconStyle": "wallart1"
+  },
+
+  {
+    "Id": "5",
+    "PageName": "Non-digital Art",
+    "ButtonIconStyle": "wallart2"
+  },
+
+  {
+    "Id": "6",
+    "PageName": "wallart3",
+    "ButtonIconStyle": "wallart3"
+  },
+
+  {
+    "Id": "7",
+    "PageName": "Moth Character",
+    "ButtonIconStyle": "mothfigure"
+  },
+
+  {
+    "Id": "8",
+    "PageName": "PL3-NT",
+    "ButtonIconStyle": "pl3nt"
+  }
+]

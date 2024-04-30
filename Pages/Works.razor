@@ -1,0 +1,27 @@
+﻿@page "/works"
+@using EevikaPortfolioProject.Models
+@inject HttpClient Http
+
+<PageTitle>Works</PageTitle>
+
+<div class="container">
+    <h3>Works</h3>
+    @if (works != null)
+    {
+        @foreach (var work in works)
+        {
+            <a href="@($"works/{work.Id}")" style="text-decoration: none; font-size: 16px; padding-top: 1.5rem;" width="">@work.PageName</a>
+        }
+    }
+</div>
+
+@code {
+    private IEnumerable<PortfolioWork>? works;
+
+    protected override async Task OnInitializedAsync()
+    {
+        works = await Http.GetFromJsonAsync<PortfolioWork[]>("sample-data/portfolioworks.json");
+
+        if(works != null) works = works.OrderBy(w => w.PageName).ToList();
+    }
+}

@@ -1,0 +1,35 @@
+﻿@inject NavigationManager _nav
+<div class="btn">
+    <div class="@style" @onmouseover="ChangeToHoverImg" @onmouseout="ChangeToHoverImg" @onclick="OpenWorkPage"></div>
+    </div>
+
+@code
+{
+    private string style { get; set; } = string.Empty;
+    [Parameter] public string BaseStyle { get; set; } = string.Empty;
+    [Parameter] public string HoveredStyle { get; set; } = string.Empty;
+    [Parameter] public int WorkId { get; set; }
+
+    protected override void OnInitialized()
+    {
+        style = BaseStyle;
+    }
+
+    private void ChangeToHoverImg()
+    {
+        if(style == BaseStyle)
+        {
+            style = HoveredStyle;
+        }
+        else
+        {
+            style = BaseStyle;
+        }
+    }
+
+    private void OpenWorkPage()
+    {
+        //get the post preview of post of id
+        _nav.NavigateTo("/works/" + WorkId);
+    }
+}

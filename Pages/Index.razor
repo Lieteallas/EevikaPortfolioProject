@@ -1,9 +1,28 @@
 ﻿@page "/"
+@using EevikaPortfolioProject.Pages
+@using EevikaPortfolioProject.Models
+@inject HttpClient Http
 
-<PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<PageTitle>Home</PageTitle>
 
-Welcome to your new app.
+<div class="homeroom">
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    @if (works != null)
+    {
+        foreach (var work in works)
+        {
+            <HomeroomButton BaseStyle=@work.ButtonIconStyle HoveredStyle=@(work.ButtonIconStyle + "hover") WorkId=@work.Id></HomeroomButton>
+        }
+    }
+</div>
+
+@code
+{
+    private IEnumerable<PortfolioWork>? works;
+
+    protected override async Task OnInitializedAsync()
+    {
+        works = await Http.GetFromJsonAsync<PortfolioWork[]>("sample-data/portfolioworks.json");
+    }
+}

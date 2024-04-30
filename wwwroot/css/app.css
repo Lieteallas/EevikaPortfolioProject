@@ -1,7 +1,28 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+:root {
+    /*light mode*/
+    --main-color: #FFF5EA;
+    --secondary-color: #D2E3B9;
+    --font-color: #30293D;
+    --highlight: #AC845E;
+    --highlight-2: #E2723F;
+    --link: #4A447F;
+    --mode-icon: url('../img/moonicon.png');
+}
+
+.dark-mode {
+    --main-color: #2e2e3d;
+    --secondary-color: #0D0A14;
+    --font-color: #FFF5EA;
+    --highlight: #974587;
+    --highlight-2: #4B8563;
+    --link: #D2E3B9;
+    --mode-icon: url('../img/sunicon.png');
+}
+
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Consolas, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1:focus {
@@ -9,21 +30,36 @@ h1:focus {
 }
 
 a, .btn-link {
-    color: #0071c1;
+    color: var(--link);
+}
+
+h1, h2, h3 {
+    color: var(--font-color);
+}
+
+.alert-secondary {
+    background-color: var(--highlight-2);
+    color: var(--font-color);
+}
+
+.table {
+    color: var(--font-color);
+}
+
+div.main {
+    background-color: var(--main-color);
+    color: var(--font-color);
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    color: var(--font-color);
+    background-color: var(--secondary-color);
+    border-color: var(--main-color);
 }
 
 .content {
-    padding-top: 1.1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .valid.modified:not([type=checkbox]) {
@@ -36,6 +72,239 @@ a, .btn-link {
 
 .validation-message {
     color: red;
+}
+
+.container {
+    color: var(--font-color);
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.homeroom {
+    margin: auto;
+    position: relative;
+    background-image: url('../img/homebackground.png');
+    background-size: cover;
+    width: 600px;
+    height: 614px;
+}
+
+.critters {
+    position: absolute;
+    left: 316px;
+    top: 316px;
+    background-image: url('../img/iconbtns/critters_base.png');
+    background-size: cover;
+    width: 48px;
+    height: 36px;
+}
+
+.crittershover {
+    position: absolute;
+    left: 293px;
+    top: 303px;
+    background-image: url('../img/iconbtns/critters_hover.png');
+    background-size: cover;
+    width: 74px;
+    height: 71px;
+}
+
+.doll {
+    position: absolute;
+    left: 309px;
+    top: 248px;
+    background-image: url('../img/iconbtns/bluedemon_base.png');
+    background-size: cover;
+    width: 43px;
+    height: 23px;
+}
+
+.dollhover {
+    position: absolute;
+    left: 314px;
+    top: 215px;
+    background-image: url('../img/iconbtns/bluedemon_hover.png');
+    background-size: cover;
+    width: 42px;
+    height: 90px;
+}
+
+.games {
+    position: absolute;
+    left: 48px;
+    top: 307px;
+    background-image: url('../img/iconbtns/computer_base.png');
+    background-size: cover;
+    width: 103px;
+    height: 86px;
+}
+
+.gameshover {
+    position: absolute;
+    left: 31px;
+    top: 293px;
+    background-image: url('../img/iconbtns/computer_hover.png');
+    background-size: cover;
+    width: 137px;
+    height: 101px;
+}
+
+.aboutme {
+    position: absolute;
+    left: 459px;
+    top: 392px;
+    background-image: url('../img/iconbtns/journal_base.png');
+    background-size: cover;
+    width: 61px;
+    height: 40px;
+}
+
+.aboutmehover {
+    position: absolute;
+    left: 467px;
+    top: 349px;
+    background-image: url('../img/iconbtns/journal_hover.png');
+    background-size: cover;
+    width: 66px;
+    height: 83px;
+}
+
+.paintings {
+    position: absolute;
+    left: 222px;
+    top: 481px;
+    background-image: url('../img/iconbtns/paintings_base.png');
+    background-size: cover;
+    width: 115px;
+    height: 78px;
+}
+
+.paintingshover {
+    position: absolute;
+    left: 203px;
+    top: 457px;
+    background-image: url('../img/iconbtns/paintings_hover.png');
+    background-size: cover;
+    width: 165px;
+    height: 126px;
+}
+
+.mothfigure {
+    position: absolute;
+    left: 357px;
+    top: 153px;
+    background-image: url('../img/iconbtns/moth_base.png');
+    background-size: cover;
+    width: 30px;
+    height: 53px;
+}
+
+.mothfigurehover {
+    position: absolute;
+    left: 308px;
+    top: 92px;
+    background-image: url('../img/iconbtns/moth_hover.png');
+    background-size: cover;
+    width: 150px;
+    height: 137px;
+}
+
+.wallart1 {
+    position: absolute;
+    left: 122px;
+    top: 156px;
+    background-image: url('../img/iconbtns/wallart1_base.png');
+    background-size: cover;
+    width: 46px;
+    height: 57px;
+}
+
+.wallart1hover {
+    position: absolute;
+    left: 110px;
+    top: 163px;
+    background-image: url('../img/iconbtns/wallart1_hover.png');
+    background-size: cover;
+    width: 57px;
+    height: 61px;
+}
+
+.wallart2 {
+    position: absolute;
+    left: 196px;
+    top: 112px;
+    background-image: url('../img/iconbtns/wallart2_base.png');
+    background-size: cover;
+    width: 40px;
+    height: 78px;
+}
+
+.wallart2hover {
+    position: absolute;
+    left: 191px;
+    top: 98px;
+    background-image: url('../img/iconbtns/wallart2_hover.png');
+    background-size: cover;
+    width: 53px;
+    height: 85px;
+}
+
+.wallart3 {
+    position: absolute;
+    left: 171px;
+    top: 204px;
+    background-image: url('../img/iconbtns/wallart3_base.png');
+    background-size: cover;
+    width: 45px;
+    height: 64px;
+}
+
+.wallart3hover {
+    position: absolute;
+    left: 175px;
+    top: 208px;
+    background-image: url('../img/iconbtns/wallart3_hover.png');
+    background-size: cover;
+    width: 55px;
+    height: 63px;
+}
+
+.pl3nt {
+    position: absolute;
+    left: 403px;
+    top: 386px;
+    background-image: url('../img/iconbtns/pl3nt_base.png');
+    background-size: cover;
+    width: 84px;
+    height: 51px;
+}
+
+.pl3nthover {
+    position: absolute;
+    left: 334px;
+    top: 379px;
+    background-image: url('../img/iconbtns/pl3nt_hover.png');
+    background-size: cover;
+    width: 157px;
+    height: 102px;
+}
+
+.lightdarkmodeicon {
+    background-image: var(--mode-icon);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+
+.portfoliologo {
+    background-image: url('../img/eevika.png');
+    background-size: cover;
+    width: 134px;
+    height: 37px;
 }
 
 #blazor-error-ui {

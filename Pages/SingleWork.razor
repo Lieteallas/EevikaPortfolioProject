@@ -1,0 +1,80 @@
+﻿@page "/works/{id:int}"
+@using EevikaPortfolioProject.Pages
+@using EevikaPortfolioProject.Models
+@inject HttpClient Http
+
+<PageTitle>@workTitle</PageTitle>
+
+
+
+
+
+<div class="container">
+    <h3>@workTitle</h3>
+    @if (contents != null)
+    {
+        foreach (var c in contents)
+        {
+            <div class="content">
+                @if (@c.ContentTitle != @String.Empty)
+                {
+                    <h3>@c.ContentTitle</h3>
+                }
+               
+            @switch (c.ContentType)
+            {
+                case "model":
+                        <div class="sketchfab-embed-wrapper">
+                            <iframe title=@c.ContentTitle frameborder="0" allowfullscreen mozallowfullscreen="true"
+                                    webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+                                    xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
+                                    width="640" height="480" src="https://sketchfab.com/models/@c.ContentReference/embed?dnt=1"> </iframe>
+                        </div>
+                    break;
+
+                case "video":
+                        <video width="640" height: auto controls muted>
+                            <source src="@c.ContentReference" type="video/mp4" />
+                        </video>
+
+                        @if (@c.ContentText != @String.Empty)
+                        {
+                            <p style="width:640px; word-wrap:break-word">@c.ContentText</p>
+                        }
+                    break;
+
+                case "image":
+                        <img width="640" height: auto src="@c.ContentReference" />
+
+                        @if (@c.ContentText != @String.Empty)
+                        {
+                            <p style="width:640px; word-wrap:break-word">@c.ContentText</p>
+                        }
+                        break;
+
+                    case "text":
+                        <p style="width:640px; word-wrap:break-word; font-size: 20px;">@c.ContentText</p>
+                        break;
+            }
+            </div>
+        }
+    }
+</div>
+
+@code
+{
+    [Parameter] public int? Id { get; set; }
+    private IEnumerable<PortfolioContentPiece>? contents;
+    private IEnumerable<PortfolioWork>? works;
+    private string workTitle = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Id != null)
+        {
+            contents = await Http.GetFromJsonAsync<PortfolioContentPiece[]>($"sample-data/workcontents{(int)Id}.json");
+            works = await Http.GetFromJsonAsync<PortfolioWork[]>($"sample-data/workcontents{(int)Id}.json");
+            workTitle = works != null && works.Any(w => w.Id == Id) ? works.First(w => w.Id == Id).PageName : "";
+        }
+    }
+}

@@ -1,0 +1,19 @@
+﻿[
+  {
+    "WorkId": "1",
+    "ContentType": "text",
+    "ContentText": "An animated character with idle, walk, run and jump animations made with blender. The face animations were made using shape keys."
+  },
+  {
+    "WorkId": "1",
+    "ContentTitle": "Sketchfab - Character With Animations",
+    "ContentType": "model",
+    "ContentReference": "45e1ede77c354c9da7f1e23a433c9df1"
+  },
+  {
+    "WorkId": "1",
+    "ContentTitle": "Shape Keys",
+    "ContentType": "video",
+    "ContentReference": "/img/content/doll/faceanimvideo.mp4"
+  }
+]

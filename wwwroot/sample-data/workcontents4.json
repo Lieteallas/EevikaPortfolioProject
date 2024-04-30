@@ -1,0 +1,32 @@
+﻿[
+  {
+    "WorkId": "4",
+    "ContentType": "text",
+    "ContentText": "Paper Room is a photogrammetry project. The goal is to capture handcrafted miniature paper objects to be usable 3D assets."
+  },
+  {
+    "WorkId": "4",
+    "ContentType": "image",
+    "ContentReference": "/img/content/paperminis/miniaturephotocollage.jpg"
+  },
+  {
+    "WorkId": "4",
+    "ContentType": "image",
+    "ContentReference": "/img/content/paperminis/paperroompic1.png"
+  },
+  {
+    "WorkId": "4",
+    "ContentType": "image",
+    "ContentReference": "/img/content/paperminis/paperroompic2.png"
+  },
+  {
+    "WorkId": "4",
+    "ContentType": "image",
+    "ContentReference": "/img/content/paperminis/paperroompic3.png"
+  },
+  {
+    "WorkId": "4",
+    "ContentType": "image",
+    "ContentReference": "/img/content/paperminis/paperroompic4.png"
+  }
+]
