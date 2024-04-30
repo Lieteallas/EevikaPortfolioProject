@@ -1,0 +1,39 @@
+﻿[
+  {
+    "WorkId": "0",
+    "ContentTitle": "Sketchfab - Red Onion",
+    "ContentType": "model",
+    "ContentReference": "17184aa1ee9f45febefcbc3fcfb27578"
+  },
+  {
+    "WorkId": "0",
+    "ContentTitle": "Sketchfab - Mint",
+    "ContentType": "model",
+    "ContentReference": "23a27fc835d54d8b8114bb12537505ac"
+  },
+  {
+    "WorkId": "0",
+    "ContentTitle": "Sketchfab - Chili",
+    "ContentType": "model",
+    "ContentReference": "9cbc1ada706c4578be20a59c16dc5caf"
+  },
+  {
+    "WorkId": "0",
+    "ContentTitle": "Sketchfab - Cucumber",
+    "ContentType": "model",
+    "ContentReference": "5b68102d14bc481c869a0cd4f89511f8"
+  },
+  {
+    "WorkId": "0",
+    "ContentTitle": "VR Pet Project",
+    "ContentType": "video",
+    "ContentReference": "/img/content/critters/eevi_k_xrtech_untitledvrpetproject.mp4",
+    "ContentText": "The first critter was originally for a VR Pet game."
+  },
+  {
+    "WorkId": "0",
+    "ContentTitle": "Critter Marker Cards",
+    "ContentType": "image",
+    "ContentReference": "/img/content/critters/crittercards.png"
+  }
+]

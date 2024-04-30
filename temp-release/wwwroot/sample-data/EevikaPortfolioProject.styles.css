@@ -1,0 +1,101 @@
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-r0q910l9pg] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-r0q910l9pg] {
+    background-image: linear-gradient(180deg, var(--main-color) 0%, var(--secondary-color) 85%);
+    min-height: 1300px;
+    max-height: 10000px;
+    height: fit-content;
+    flex: 1;
+}
+
+.sidebar[b-r0q910l9pg] {
+}
+
+.top-row[b-r0q910l9pg] {
+    background-color: var(--secondary-color);
+    justify-content: space-evenly;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-r0q910l9pg]  a, .top-row .btn-link[b-r0q910l9pg] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-r0q910l9pg] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+
+.bottom-row[b-r0q910l9pg] {
+    background-color: var(--secondary-color);
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+/*selector */
+main > .content[b-r0q910l9pg] {
+    overflow-y: auto;
+    margin-bottom: 7rem;
+}
+
+/*Max-width is the maximum width at which a style will continue to be applied. 
+After that, the style will STOP being applied.*/
+@media (max-width: 640.98px) {
+    .top-row:not(.logindisplay)[b-r0q910l9pg] {
+        display: none;
+    }
+
+    .top-row.logindisplay[b-r0q910l9pg] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-r0q910l9pg], .top-row .btn-link[b-r0q910l9pg] {
+        margin-left: 0;
+    }
+}
+
+/*greater than or equal to*/
+/*Min-width is the minimum width at which a style will START to be applied*/
+@media (min-width: 641px) {
+    .page[b-r0q910l9pg] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-r0q910l9pg] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+
+    .top-row[b-r0q910l9pg] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .bottom-row[b-r0q910l9pg] {
+        justify-content: center;
+    }
+
+    .top-row[b-r0q910l9pg], article[b-r0q910l9pg] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
