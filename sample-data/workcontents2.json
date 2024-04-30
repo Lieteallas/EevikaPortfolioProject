@@ -3,13 +3,13 @@
     "WorkId": "2",
     "ContentTitle": "Project Video",
     "ContentType": "video",
-    "ContentReference": "img/content/games/eevi_karjalainen_2022_unityproject.mp4"
+    "ContentReference": "img/content/games/Eevi_Karjalainen_2022_UnityProject.mp4"
   },
   {
     "WorkId": "2",
     "ContentTitle": "Enemy Death Animation",
     "ContentType": "image",
-    "ContentReference": "img/content/games/enemydeathanim1.gif"
+    "ContentReference": "img/content/games/EnemyDeathAnim1.gif"
   },
   {
     "WorkId": "2",
