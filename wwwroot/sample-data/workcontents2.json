@@ -3,18 +3,18 @@
     "WorkId": "2",
     "ContentTitle": "Project Video",
     "ContentType": "video",
-    "ContentReference": "/img/content/games/eevi_karjalainen_2022_unityproject.mp4"
+    "ContentReference": "img/content/games/eevi_karjalainen_2022_unityproject.mp4"
   },
   {
     "WorkId": "2",
     "ContentTitle": "Enemy Death Animation",
     "ContentType": "image",
-    "ContentReference": "/img/content/games/enemydeathanim1.gif"
+    "ContentReference": "img/content/games/enemydeathanim1.gif"
   },
   {
     "WorkId": "2",
     "ContentTitle": "Weapon Concept Art",
     "ContentType": "image",
-    "ContentReference": "/img/content/games/waterpistolref2.png"
+    "ContentReference": "img/content/games/waterpistolref2.png"
   }
 ]
